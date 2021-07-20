@@ -13,7 +13,6 @@ const LogoContainer = styled.div`
   ${tw`
     flex
     items-center
-
   `}
 `;
 
@@ -32,6 +31,8 @@ const Image = styled.div`
   ${tw`
     h-6
     md: h-9
+    pl-4
+    md:pl-0
   `}
 
   img {
