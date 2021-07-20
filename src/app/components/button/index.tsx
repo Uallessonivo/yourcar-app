@@ -7,7 +7,7 @@ interface ButtonProps {
   text: string;
 }
 
-const BaseButton = styled.div`
+const BaseButton = styled.button`
   ${tw`
     pl-5
     pr-5
@@ -26,27 +26,27 @@ const BaseButton = styled.div`
     duration-200
     ease-in-out
     m-1
-  `}
+  `};
 `;
 
 const OutlinedButton = styled(BaseButton)`
   ${tw`
-  bg-red-500
-  hover:bg-transparent
-  hover:text-red-500
-  hover:border-red-500
-  `}
+    bg-red-500
+    hover:bg-transparent
+    hover:text-red-500
+    hover:border-red-500
+  `};
 `;
 
 const FilledButton = styled(BaseButton)`
   ${tw`
-  border-red-500
-  text-red-500
-  bg-transparent
-  hover:bg-red-500
-  hover:text-white
-  hover:border-transparent
-  `}
+    border-red-500
+    text-red-500
+    bg-transparent
+    hover:bg-red-500
+    hover:text-white
+    hover:border-transparent
+  `};
 `;
 
 function Button(props: ButtonProps) {
