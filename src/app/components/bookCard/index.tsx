@@ -4,7 +4,7 @@ import {
   faCaretUp,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React, { useState } from "react";
+import { useState } from "react";
 import styled, { css } from "styled-components";
 import tw from "twin.macro";
 import Button from "../button";
