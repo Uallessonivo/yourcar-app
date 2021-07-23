@@ -18,3 +18,9 @@
 - Nest Js
 - Mysql
 - GraphQL
+
+<hr/>
+
+<p align="center">
+  <img alt="yourcar." src="public/yourcar.png">
+</p>
